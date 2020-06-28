@@ -18,5 +18,5 @@ set :views, Proc.new { File.join(root, "../views/") }
    end
  @super_heroes = SuperHero.all
     erb :team
-       end
-   end
+     end
+ end
